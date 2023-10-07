@@ -1,7 +1,7 @@
 [
     {
       "name": "Full Retreat Package",
-      "image": "fullretreat.jpg",
+      "image": "https://i.ibb.co/BL1hZD7/Full-reteat-package-1.jpg",
       "price": "$2,500 per person",
       "description": "Experience a week of holistic wellness with our full retreat package.",
       "button": "Book Full Retreat",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Daily Classes",
-      "image": "dailyclasses.jpg",
+      "image": "https://i.ibb.co/Nr8WVjM/Daily-classes.jpg",
       "price": "$50 per class",
       "description": "Join daily yoga and fitness classes during your stay.",
       "button": "Join a Class",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Private Yoga Sessions",
-      "image": "privateyoga.jpg",
+      "image": "https://i.ibb.co/z89ymhM/Private-yoga-session.jpg",
       "price": "$100 per session",
       "description": "Enhance your practice with personalized one-on-one yoga sessions.",
       "button": "Book Private Session",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Nutrition Consultation",
-      "image": "nutrition.jpg",
+      "image": "https://i.ibb.co/tbbQqZJ/Nutrition-Consultration.png",
       "price": "$75 per consultation",
       "description": "Receive expert guidance on nutrition and dietary choices.",
       "button": "Schedule Consultation",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Wellness Workshops",
-      "image": "wellnessworkshops.jpg",
+      "image": "https://i.ibb.co/XFdBwfn/Wellness-workshop.jpg",
       "price": "$35 per workshop",
       "description": "Participate in informative wellness workshops led by experts.",
       "button": "Register for Workshop",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Group Retreat Booking",
-      "image": "groupbooking.jpg",
+      "image": "https://i.ibb.co/Ctcd40t/Group-retreat-booking.jpggroupbooking.jpg",
       "price": "Custom pricing (for groups of 5 or more)",
       "description": "Book the retreat for your group and enjoy a tailored experience.",
       "button": "Group Booking",

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react';s
 
 const Login = () => {
     return (
-        <div>
-            login
-        </div>
+        <>
+        
+        </>
     );
 };
 
