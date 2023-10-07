@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Full Retreat Package",
+      "image": "fullretreat.jpg",
+      "price": "$2,500 per person",
+      "description": "Experience a week of holistic wellness with our full retreat package.",
+      "button": "Book Full Retreat",
+      "details": {
+        "package": "Package: Accommodation, daily yoga and fitness classes, organic meals",
+        "activities": "Activities: Guided hikes, meditation sessions, wellness workshops",
+        "duration": "Duration: 7 days and 6 nights",
+        "instructors": "Instructors: Experienced yoga and fitness trainers",
+        "benefits": "Benefits: Stress reduction, physical fitness, mental clarity"
+      }
+    },
+    {
+      "name": "Daily Classes",
+      "image": "dailyclasses.jpg",
+      "price": "$50 per class",
+      "description": "Join daily yoga and fitness classes during your stay.",
+      "button": "Join a Class",
+      "details": {
+        "schedule": "Schedule: Multiple classes per day (yoga, pilates, HIIT, etc.)",
+        "instructors": "Instructors: Certified yoga and fitness trainers",
+        "duration": "Duration: 60-90 minutes per class",
+        "levels": "Levels: Suitable for all levels (beginner to advanced)"
+      }
+    },
+    {
+      "name": "Private Yoga Sessions",
+      "image": "privateyoga.jpg",
+      "price": "$100 per session",
+      "description": "Enhance your practice with personalized one-on-one yoga sessions.",
+      "button": "Book Private Session",
+      "details": {
+        "sessions": "Sessions: Customized to your skill level and goals",
+        "duration": "Duration: 60 minutes per session",
+        "instructor": "Instructor: Private session with a certified yoga instructor",
+        "focus": "Focus Areas: Alignment, flexibility, meditation"
+      }
+    },
+    {
+      "name": "Nutrition Consultation",
+      "image": "nutrition.jpg",
+      "price": "$75 per consultation",
+      "description": "Receive expert guidance on nutrition and dietary choices.",
+      "button": "Schedule Consultation",
+      "details": {
+        "consultation": "Consultation: Personalized nutrition assessment and recommendations",
+        "benefits": "Benefits: Improved diet, energy, and overall well-being",
+        "dietitian": "Dietitian: Registered dietitian consultation"
+      }
+    },
+    {
+      "name": "Wellness Workshops",
+      "image": "wellnessworkshops.jpg",
+      "price": "$35 per workshop",
+      "description": "Participate in informative wellness workshops led by experts.",
+      "button": "Register for Workshop",
+      "details": {
+        "topics": "Topics: Stress management, mindfulness, holistic health",
+        "schedule": "Schedule: Various workshops throughout the retreat",
+        "experts": "Experts: Renowned wellness experts and speakers"
+      }
+    },
+    {
+      "name": "Group Retreat Booking",
+      "image": "groupbooking.jpg",
+      "price": "Custom pricing (for groups of 5 or more)",
+      "description": "Book the retreat for your group and enjoy a tailored experience.",
+      "button": "Group Booking",
+      "details": {
+        "groupsize": "Group Size: Minimum 5 participants",
+        "customization": "Customization: Tailored schedule, private group activities",
+        "groupbenefits": "Group Benefits: Special discounts, group activities"
+      }
+    }
+  ]
