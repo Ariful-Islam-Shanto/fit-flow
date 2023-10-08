@@ -1,0 +1,5 @@
+.bg {
+        background-image: url("../../assets/images/bg.jpg"), linear-gradient(rgba(247, 238, 238, 0.5),rgba(253, 240, 240, 0.5));
+        background-blend-mode: overlay;
+        background-position: center;
+    }

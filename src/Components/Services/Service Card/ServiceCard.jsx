@@ -11,8 +11,8 @@ const ServiceCard = ({service}) => {
 
     return (
         <div>
-           <div className="relative flex flex-col w-full  mx-auto rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-  <div className="relative overflow-hidden rounded-md bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 w-full h-full">
+           <div className="relative flex flex-col w-full  mx-auto  bg-clip-border rounded-md text-gray-700 drop-shadow-lg hover:-translate-y-4 duration-300 ease-in-out hover:shadow-2xl">
+  <div className="relative overflow-hidden rounded-t-md bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 w-full h-full">
     <img
       src={image}
       alt="ui/ux review check"
