@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "name": "Full Retreat Package",
       "image": "https://i.ibb.co/BL1hZD7/Full-reteat-package-1.jpg",
       "price": "$2,500 per person",
@@ -14,6 +15,7 @@
       }
     },
     {
+        "id": 2,
       "name": "Daily Classes",
       "image": "https://i.ibb.co/Nr8WVjM/Daily-classes.jpg",
       "price": "$50 per class",
@@ -27,6 +29,7 @@
       }
     },
     {
+        "id": 3,
       "name": "Private Yoga Sessions",
       "image": "https://i.ibb.co/z89ymhM/Private-yoga-session.jpg",
       "price": "$100 per session",
@@ -40,6 +43,7 @@
       }
     },
     {
+        "id": 4,
       "name": "Nutrition Consultation",
       "image": "https://i.ibb.co/tbbQqZJ/Nutrition-Consultration.png",
       "price": "$75 per consultation",
@@ -52,6 +56,7 @@
       }
     },
     {
+        "id": 5,
       "name": "Wellness Workshops",
       "image": "https://i.ibb.co/XFdBwfn/Wellness-workshop.jpg",
       "price": "$35 per workshop",
@@ -64,6 +69,7 @@
       }
     },
     {
+        "id": 6,
       "name": "Group Retreat Booking",
       "image": "https://i.ibb.co/Ctcd40t/Group-retreat-booking.jpggroupbooking.jpg",
       "price": "Custom pricing (for groups of 5 or more)",

@@ -42,7 +42,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="bg-gradient-to-tr border-none from-blue-400 to-blue-600 text-white rounded-md py-3 px-7">SignIn</a>
+    <a className="bg-gradient-to-tr border-none from-pink-600 to-pink-400  text-white rounded-md py-3 px-7">SignIn</a>
   </div>
 </div> 
         </>

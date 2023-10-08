@@ -1,7 +1,8 @@
 import React from "react";
 import Banner from "../../Components/Banner/Banner";
-import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Navbar/Navbar";
 import Login from "../Login/Login";
+import Services from "../../Components/Services/Services";
 
 const Home = () => {
   return (
@@ -10,9 +11,7 @@ const Home = () => {
         <Navbar></Navbar>
         <Banner></Banner>
       </div>
-      <div>
-        <Login></Login>
-      </div>
+      <Services></Services>
     </div>
   );
 };
