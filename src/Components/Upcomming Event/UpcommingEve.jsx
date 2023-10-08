@@ -3,7 +3,7 @@ import React from 'react';
 const UpcommingEve = () => {
     return (
         <div className='space-y-12 py-12 px-24'>
-            <h1 className='text-6xl text-center text-black'>Upcoming Events</h1>
+            <h1 className='text-6xl text-center text-gray-800'>Upcoming Events</h1>
             <div className='grid grid-cols-2 gap-4'>
                 <div className='space-y-8'>
                     <h1 className=' text-2xl text-black '>Menla Mountain Retreat Center: Catskills, NY 

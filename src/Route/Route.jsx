@@ -5,6 +5,8 @@ import Root from "../Main Layout/Root";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import PrivateRoute from "../Private Routes/Private Route/PrivateRoute";
+import Details from "../Private Routes/Details/Details";
 
 const Route = createBrowserRouter([
     {
@@ -20,8 +22,12 @@ const Route = createBrowserRouter([
             element: <Login></Login>
         },
         {
-            path: 'register',
+            path: '/register',
             element: <Register></Register>
+        },
+        {
+            path: '/details/:id',
+            element: <PrivateRoute><Details></Details></PrivateRoute>
         }
       ]
     },

@@ -7,12 +7,13 @@
       "description": "Experience a week of holistic wellness with our full retreat package.",
       "button": "Book Full Retreat",
       "details": {
-        "package": "Package: Accommodation, daily yoga and fitness classes, organic meals",
-        "activities": "Activities: Guided hikes, meditation sessions, wellness workshops",
-        "duration": "Duration: 7 days and 6 nights",
-        "instructors": "Instructors: Experienced yoga and fitness trainers",
-        "benefits": "Benefits: Stress reduction, physical fitness, mental clarity"
+        "Description": "Experience a week of holistic wellness with our full retreat package.",
+        "Schedule": "Accommodation, daily yoga and fitness classes, organic meals",
+        "Instructors": "Experienced yoga and fitness trainers, guided hikes, meditation sessions, wellness workshops",
+        "Duration": "7 days and 6 nights",
+        "Benefits": "Stress reduction, physical fitness, mental clarity"
       }
+      
     },
     {
         "id": 2,
@@ -22,11 +23,13 @@
       "description": "Join daily yoga and fitness classes during your stay.",
       "button": "Join a Class",
       "details": {
-        "schedule": "Schedule: Multiple classes per day (yoga, pilates, HIIT, etc.)",
-        "instructors": "Instructors: Certified yoga and fitness trainers",
-        "duration": "Duration: 60-90 minutes per class",
-        "levels": "Levels: Suitable for all levels (beginner to advanced)"
+        "Description": "Join daily yoga and fitness classes during your stay.",
+        "Schedule": "Multiple classes per day (yoga, pilates, HIIT, etc.)",
+        "Instructors": "Certified yoga and fitness trainers",
+        "Duration": "60-90 minutes per class",
+        "Benefits": "Suitable for all levels (beginner to advanced)"
       }
+      
     },
     {
         "id": 3,
@@ -36,11 +39,13 @@
       "description": "Enhance your practice with personalized one-on-one yoga sessions.",
       "button": "Book Private Session",
       "details": {
-        "sessions": "Sessions: Customized to your skill level and goals",
-        "duration": "Duration: 60 minutes per session",
-        "instructor": "Instructor: Private session with a certified yoga instructor",
-        "focus": "Focus Areas: Alignment, flexibility, meditation"
+        "Description": "Enhance your practice with personalized one-on-one yoga sessions.",
+        "Schedule": "Customized to your skill level and goals",
+        "Instructors": "Private session with a certified yoga instructor",
+        "Duration": "60 minutes per session",
+        "Benefits": "Focus on alignment, flexibility, and meditation"
       }
+      
     },
     {
         "id": 4,
@@ -50,10 +55,13 @@
       "description": "Receive expert guidance on nutrition and dietary choices.",
       "button": "Schedule Consultation",
       "details": {
-        "consultation": "Consultation: Personalized nutrition assessment and recommendations",
-        "benefits": "Benefits: Improved diet, energy, and overall well-being",
-        "dietitian": "Dietitian: Registered dietitian consultation"
+        "Description": "Receive expert guidance on nutrition and dietary choices.",
+        "Schedule": "Personalized nutrition assessment and recommendations",
+        "Instructors": "Improved diet, energy, and overall well-being",
+        "Duration": "Consultation with a registered dietitian",
+        "Benefits": "Benefits: Gain a better understanding of your dietary needs, improve your overall health, and enhance your well-being through personalized nutritional guidance."
       }
+      
     },
     {
         "id": 5,
@@ -63,10 +71,13 @@
       "description": "Participate in informative wellness workshops led by experts.",
       "button": "Register for Workshop",
       "details": {
-        "topics": "Topics: Stress management, mindfulness, holistic health",
-        "schedule": "Schedule: Various workshops throughout the retreat",
-        "experts": "Experts: Renowned wellness experts and speakers"
+        "Description": "Participate in informative wellness workshops led by experts.",
+        "Schedule": "Topics include stress management, mindfulness, and holistic health",
+        "Instructors": "Various workshops throughout the retreat",
+        "Duration": "Led by renowned wellness experts and speakers",
+        "Benefits": "Benefits: Expand your knowledge of stress management, mindfulness, and holistic health, and gain insights from renowned wellness experts to enhance your well-being."
       }
+      
     },
     {
         "id": 6,
@@ -76,9 +87,12 @@
       "description": "Book the retreat for your group and enjoy a tailored experience.",
       "button": "Group Booking",
       "details": {
-        "groupsize": "Group Size: Minimum 5 participants",
-        "customization": "Customization: Tailored schedule, private group activities",
-        "groupbenefits": "Group Benefits: Special discounts, group activities"
+        "Description": "Book the retreat for your group and enjoy a tailored experience.",
+        "Schedule": "Tailored schedule, private group activities",
+        "Instructors": "Special discounts, group activities for groups of 5 or more participants",
+        "Duration": "Custom pricing (for groups of 5 or more)",
+        "Benefits": "Benefits: Enjoy a customized retreat experience with your group, take advantage of special discounts, and partake in group activities tailored to your needs and interests."
       }
+      
     }
   ]

@@ -1,5 +1,5 @@
 .bg {
-        background-image: url("../../assets/images/bg.jpg"), linear-gradient(rgba(255, 255, 255, 0.5),rgba(252, 252, 252, 0.5));
+        background-image: url("../../assets/images/bg.jpg"), linear-gradient(rgba(233, 239, 227, 0.881),rgba(238, 245, 227, 0.9));
         background-blend-mode: overlay;
         background-position: center;
     }

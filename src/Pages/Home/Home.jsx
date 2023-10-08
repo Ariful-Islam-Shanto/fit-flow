@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useEffect, useState } from "react";
 import Banner from "../../Components/Banner/Banner";
 import Navbar from "../../Components/Navbar/Navbar";
 import Login from "../Login/Login";
@@ -9,20 +9,31 @@ import './Home.css';
 import Quote from "../../Components/QuoteSection/Quote";
 import UpcommingEve from "../../Components/Upcomming Event/UpcommingEve";
 
+export const InfoContext = createContext(null);
 
 const Home = () => {
+    const [detaisId, setDetailsId] = useState(null);
+    
+    const handleDetails = (id) => {
+        setDetailsId(id);
+    }
+
+    const AuthInfo = {handleDetails}
     
   return (
+    <InfoContext.Provider value={AuthInfo}>
     <div className="">
-      <div  className="bg py-6 px-36 bg-cover from-[#f1fdc5] to-[#fcfcfb] w-full h-[100vh]">
+      <div  className=" py-6 px-36 bg-gradient-to-tr backdrop-blur-xl from-black to-[#0b0b0b] w-full h-[100vh]">
+
         <Navbar></Navbar>
         <Banner></Banner>
       </div>
-      <Services></Services>
+      <Services ></Services>
       <Quote></Quote>
       <UpcommingEve></UpcommingEve>
       <Footer></Footer>
     </div>
+    </InfoContext.Provider>
   );
 };
 

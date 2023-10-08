@@ -12,7 +12,7 @@ const Services = () => {
 
     console.log(services);
     return (
-        <div className='w-full bg-gradient-to-tr from-green-100 to-green-50'>
+        <div className='w-full bg-black'>
         <div className=' w-full py-16 space-y-16 max-w-6xl mx-auto' >
             <h1 className='text-6xl  text-center text-black font-medium'>Our Holistic Wellness Services</h1>
             <div className='grid grid-cols-3 gap-8'>
