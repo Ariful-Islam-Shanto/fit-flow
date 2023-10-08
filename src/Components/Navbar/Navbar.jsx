@@ -22,27 +22,27 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className=" normal-case text-xl">FitFlow</a>
+    <a className=" normal-case text-xl font-bold">FitFlow</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal flex gap-12 px-1">
       <NavLink to={'/'}
         className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-sky-400" : ""
+        isPending ? "pending" : isActive ? "text-[#97c569]" : ""
       }>Home</NavLink>
       <NavLink to={'/register'}
         className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-sky-400" : ""
+        isPending ? "pending" : isActive ? "text-[#97c569]" : ""
       }>Register</NavLink>
       <NavLink to={'/login'}
         className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-sky-400" : ""
+        isPending ? "pending" : isActive ? "text-[#97c569]" : ""
       }>Login</NavLink>
 
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="bg-gradient-to-tr border-none from-pink-600 to-pink-400  text-white rounded-md py-3 px-7">SignIn</a>
+    <a className="bg-[#84c544]   text-white rounded-md py-3 px-7">Sign in</a>
   </div>
 </div> 
         </>
