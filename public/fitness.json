@@ -1,98 +1,69 @@
 [
     {
       "id": 1,
-      "name": "Full Retreat Package",
-      "image": "https://i.ibb.co/BL1hZD7/Full-reteat-package-1.jpg",
-      "price": "$2,500 per person",
-      "description": "Experience a week of holistic wellness with our full retreat package.",
-      "button": "Book Full Retreat",
+      "name": "Event Planning",
+      "image": "https://i.ibb.co/7WPYNhr/Event.jpg",
+      "price": "Custom pricing",
+      "description": "Leave the complexities of retreat planning to us. Our event planning service covers venue selection, logistics planning, and itinerary creation. With our support, you can enjoy a stress-free and memorable retreat experience. Planning a retreat can be a daunting task. From finding the perfect venue to ensuring a seamless itinerary, there are numerous details to manage. That's where our Event Planning service comes in. Our team of experienced professionals is dedicated to making your retreat planning process a breeze.\n\nOur comprehensive event planning service begins with venue selection. We understand that the right location is crucial for a successful retreat. Whether you envision a cozy mountain cabin, a tranquil beachside resort, or a secluded forest retreat, we have the expertise to find the perfect setting for your event. We'll take care of all the logistics, ensuring that transportation, accommodations, and activities are flawlessly coordinated.\n\nIn addition to venue selection, our service includes meticulous itinerary creation. We understand that retreats are not just about logistics but also about providing transformative experiences. Our team will work closely with you to design a customized itinerary that aligns with your retreat's goals and themes. From meditation sessions at sunrise to group hikes in the afternoon, we'll make sure every moment of your retreat is memorable.\n\nBy entrusting us with event planning, you can focus on your own well-being and the well-being of your participants. We take the stress out of the planning process, allowing you to fully immerse yourself in the retreat experience. Whether you're organizing a yoga retreat, a corporate team-building getaway, or a wellness weekend, our Event Planning service is your key to a successful and stress-free event.",
       "details": {
-        "Description": "Experience a week of holistic wellness with our full retreat package.",
-        "Schedule": "Accommodation, daily yoga and fitness classes, organic meals",
-        "Instructors": "Experienced yoga and fitness trainers, guided hikes, meditation sessions, wellness workshops",
-        "Duration": "7 days and 6 nights",
-        "Benefits": "Stress reduction, physical fitness, mental clarity"
+        "service": "Our event planning service is comprehensive and tailored to your needs. It includes venue selection, logistics planning, and itinerary creation.",
+        "benefits": "By entrusting us with event planning, you can focus on your own well-being and the well-being of your participants. We ensure a seamless and enjoyable retreat experience."
       }
-      
     },
     {
-        "id": 2,
-      "name": "Daily Classes",
-      "image": "https://i.ibb.co/Nr8WVjM/Daily-classes.jpg",
-      "price": "$50 per class",
-      "description": "Join daily yoga and fitness classes during your stay.",
-      "button": "Join a Class",
+      "id": 2,
+      "name": "Venue Setup",
+      "image": "https://i.ibb.co/cTdTqLM/Venue.jpg",
+      "price": "Starting at $1,000",
+      "description": "Create the perfect retreat environment with our venue setup services. We offer a range of packages to transform your retreat space, including accommodation, yoga spaces, meditation areas, and dining facilities. The ambiance and setup of your retreat venue play a crucial role in shaping the overall experience. At [Your Company Name], we understand the importance of creating a serene and welcoming atmosphere that aligns with your retreat's theme and objectives.\n\nOur Venue Setup service is designed to take your retreat space to the next level. Whether you're hosting a yoga retreat, a wellness workshop, or a corporate retreat, our team of experts will work closely with you to bring your vision to life. From comfortable accommodations to inspiring yoga spaces and peaceful meditation areas, we've got every aspect covered.\n\nAccommodations are a key part of any retreat experience. Our team will ensure that your participants have comfortable and inviting places to rest and rejuvenate. We offer a range of accommodation options to suit your needs, from cozy cabins to luxurious resort-style rooms. Whatever your vision, we'll make it a reality.\n\nYoga and meditation are often at the heart of retreat experiences. We specialize in creating yoga spaces that are not only functional but also inspiring. Our team will set up yoga mats, props, and other equipment to ensure that your participants have everything they need for their practice. Whether it's a serene outdoor space or a dedicated yoga studio, we'll make sure it's perfect.\n\nIn addition to yoga and meditation spaces, we also create inviting dining facilities. We understand that nourishing the body is an essential part of any retreat. Our dining setups are designed to promote healthy eating and communal dining experiences. From cozy indoor dining rooms to al fresco options, we'll set the stage for delicious and mindful meals.\n\nBy choosing our Venue Setup service, you'll not only enhance the overall atmosphere of your retreat but also create a space where participants can truly connect with themselves and others. Let us transform your retreat venue into a haven of tranquility and inspiration.",
       "details": {
-        "Description": "Join daily yoga and fitness classes during your stay.",
-        "Schedule": "Multiple classes per day (yoga, pilates, HIIT, etc.)",
-        "Instructors": "Certified yoga and fitness trainers",
-        "Duration": "60-90 minutes per class",
-        "Benefits": "Suitable for all levels (beginner to advanced)"
+        "service": "Our venue setup services encompass everything from arranging comfortable accommodations to creating serene yoga spaces, meditation areas, and delightful dining spaces.",
+        "benefits": "Experience the convenience of a beautifully prepared retreat venue that enhances the overall atmosphere and guest experience."
       }
-      
     },
     {
-        "id": 3,
-      "name": "Private Yoga Sessions",
-      "image": "https://i.ibb.co/z89ymhM/Private-yoga-session.jpg",
-      "price": "$100 per session",
-      "description": "Enhance your practice with personalized one-on-one yoga sessions.",
-      "button": "Book Private Session",
+      "id": 3,
+      "name": "Registration Management",
+      "image": "https://i.ibb.co/z5t9SmJ/Registration-Management-1.jpg",
+      "price": "$500 per event",
+      "description": "Efficiently manage participant registrations for your retreats with our registration management service. We handle online registration and participant check-in, ensuring a smooth experience for all attendees. Organizing a retreat involves many moving parts, and one of the most critical aspects is participant registration. Ensuring that attendees can easily register and check-in is essential for a successful and stress-free retreat experience. This is where our Registration Management service comes in.\n\nWe take the hassle out of registration by providing a seamless online registration process. Our user-friendly registration portal allows participants to sign up for your retreat with ease. From collecting essential information to processing payments, we handle it all, so you don't have to worry about the administrative details.\n\nOn the day of the retreat, our team will be on-site to manage participant check-in. We understand that a smooth check-in process sets the tone for the entire event. Our staff will be there to welcome participants, provide them with any necessary materials, and ensure that they feel at ease from the moment they arrive.\n\nIn addition to online registration and check-in, our Registration Management service offers other valuable benefits. We provide detailed attendance tracking, so you always know who is present. We can also cater to dietary preferences and special requests, ensuring that all participants' needs are met throughout the retreat.\n\nBy choosing our Registration Management service, you can focus on delivering a meaningful retreat experience to your participants while we take care of the administrative details. Say goodbye to registration headaches and hello to a smooth and efficient process that enhances your retreat's success.",
       "details": {
-        "Description": "Enhance your practice with personalized one-on-one yoga sessions.",
-        "Schedule": "Customized to your skill level and goals",
-        "Instructors": "Private session with a certified yoga instructor",
-        "Duration": "60 minutes per session",
-        "Benefits": "Focus on alignment, flexibility, and meditation"
+        "service": "Our registration management service covers all aspects of participant registration, including online registration and on-site check-in procedures.",
+        "benefits": "Enjoy a hassle-free registration process that allows you to focus on the retreat experience itself. We provide detailed attendance tracking and cater to dietary preferences."
       }
-      
     },
     {
-        "id": 4,
-      "name": "Nutrition Consultation",
-      "image": "https://i.ibb.co/tbbQqZJ/Nutrition-Consultration.png",
-      "price": "$75 per consultation",
-      "description": "Receive expert guidance on nutrition and dietary choices.",
-      "button": "Schedule Consultation",
+      "id": 4,
+      "name": "Marketing and Promotion",
+      "image": "https://i.ibb.co/pbjw6yZ/Marketing-1.jpg",
+      "price": "$1,500 marketing package",
+      "description": "Boost the visibility of your retreats with our marketing services. Our comprehensive marketing package includes digital campaigns, social media promotion, and press releases to attract more participants. In today's competitive market, effective marketing is essential to ensure the success of your retreats. You may have the most incredible retreat experience to offer, but if no one knows about it, your efforts may go unnoticed. That's where our Marketing and Promotion service comes in.\n\nWe offer a comprehensive marketing package designed to maximize the visibility of your retreats. Our team of marketing experts will work closely with you to create a tailored marketing strategy that aligns with your goals and target audience.\n\nOne of the key components of our marketing package is digital campaigns. We'll create eye-catching advertisements and promotional materials that resonate with your audience. Our digital campaigns will be strategically placed on various online platforms, ensuring that your retreat reaches a wide and relevant audience.\n\nSocial media is a powerful tool for promoting retreats, and we excel in this area. Our social media promotion includes creating engaging content, running targeted ads, and managing your social media accounts to increase engagement. We'll harness the full potential of platforms like Instagram, Facebook, and Twitter to generate buzz and attract participants.\n\nPress releases are another effective way to garner attention for your retreats. Our team will craft compelling press releases and distribute them to relevant media outlets. This can lead to valuable media coverage, further enhancing your retreat's reputation and credibility.\n\nBy choosing our Marketing and Promotion service, you'll experience increased participation, improved brand recognition, and media coverage that enhances the success of your retreats. Let us handle the marketing, so you can focus on creating a remarkable retreat experience that will leave a lasting impression on your participants.",
       "details": {
-        "Description": "Receive expert guidance on nutrition and dietary choices.",
-        "Schedule": "Personalized nutrition assessment and recommendations",
-        "Instructors": "Improved diet, energy, and overall well-being",
-        "Duration": "Consultation with a registered dietitian",
-        "Benefits": "Benefits: Gain a better understanding of your dietary needs, improve your overall health, and enhance your well-being through personalized nutritional guidance."
+        "service": "Our marketing and promotion service offers a full range of promotional activities, including digital campaigns, social media promotion, and press releases to maximize event attendance.",
+        "benefits": "Experience increased participation, improved brand recognition, and media coverage that enhances the success of your retreats."
       }
-      
     },
     {
-        "id": 5,
-      "name": "Wellness Workshops",
-      "image": "https://i.ibb.co/XFdBwfn/Wellness-workshop.jpg",
-      "price": "$35 per workshop",
-      "description": "Participate in informative wellness workshops led by experts.",
-      "button": "Register for Workshop",
+      "id": 5,
+      "name": "Instructor Coordination",
+      "image": "https://i.ibb.co/N93kFDD/Instructor-1.jpg",
+      "price": "Custom pricing",
+      "description": "Hire experienced yoga and fitness instructors for your retreats with ease. Our instructor coordination service includes instructor selection, scheduling, and compensation management. The quality and expertise of instructors can make or break a retreat experience. At [Your Company Name], we understand the importance of having experienced and qualified instructors who can provide participants with a meaningful and transformative journey.\n\nOur Instructor Coordination service is designed to simplify the process of hiring instructors for your retreats. We have a network of certified and experienced yoga and fitness instructors who are passionate about what they do. Whether you need instructors for yoga sessions, meditation classes, or fitness activities, we've got you covered.\n\nThe first step in our process is instructor selection. We'll work closely with you to understand your retreat's goals and objectives. Based on your requirements, we'll handpick instructors who have the expertise and teaching style that aligns with your vision. We believe in the importance of matching instructors to the retreat's theme and audience to create a cohesive and impactful experience.\n\nOnce the instructors are selected, we'll take care of scheduling. We understand the complexities of coordinating multiple instructors and activities. Our team will create a detailed schedule that ensures a smooth flow of classes and activities throughout the retreat. We'll also handle all communication with the instructors, so you don't have to worry about the logistics.\n\nInstructor compensation management is another aspect of our service. We'll negotiate fair compensation packages on your behalf, taking into account industry standards and instructor qualifications. This ensures that your instructors are motivated and committed to delivering their best to your participants.\n\nBy choosing our Instructor Coordination service, you can rest assured that the quality and expertise of instructors at your retreats will be top-notch. We take care of all the details, allowing you to focus on curating an unforgettable retreat experience. Whether you're organizing a yoga retreat, a wellness weekend, or a fitness getaway, our experienced instructors will elevate your event to the next level.",
       "details": {
-        "Description": "Participate in informative wellness workshops led by experts.",
-        "Schedule": "Topics include stress management, mindfulness, and holistic health",
-        "Instructors": "Various workshops throughout the retreat",
-        "Duration": "Led by renowned wellness experts and speakers",
-        "Benefits": "Benefits: Expand your knowledge of stress management, mindfulness, and holistic health, and gain insights from renowned wellness experts to enhance your well-being."
+        "service": "Our instructor coordination service simplifies the process of hiring experienced yoga and fitness instructors for your retreats. We handle instructor selection, scheduling, and compensation management.",
+        "benefits": "Ensure the quality and expertise of instructors at your retreats. All our instructors are certified and experienced, offering participants the best possible experience."
       }
-      
     },
     {
-        "id": 6,
-      "name": "Group Retreat Booking",
-      "image": "https://i.ibb.co/Ctcd40t/Group-retreat-booking.jpggroupbooking.jpg",
-      "price": "Custom pricing (for groups of 5 or more)",
-      "description": "Book the retreat for your group and enjoy a tailored experience.",
-      "button": "Group Booking",
+      "id": 6,
+      "name": "Participant Support",
+      "image": "https://i.ibb.co/HC52w3X/Particiepent-Support.jpg",
+      "price": "$25 per participant",
+      "description": "Provide personalized support to retreat participants throughout their journey. Our participant support service offers assistance, guidance, and wellness tips, including the provision of yoga mats, props, and wellness kits. A successful retreat not only provides enriching experiences but also ensures that participants feel supported and cared for throughout their journey. At [Your Company Name], we understand the importance of personalized participant support, and our Participant Support service is designed to make your retreat memorable and hassle-free.\n\nOur Participant Support service goes beyond the ordinary. We are dedicated to providing a nurturing and supportive environment for your participants from the moment they arrive until the moment they depart. Our team of friendly and knowledgeable staff is committed to ensuring that every participant's needs are met.\n\nOne of the key aspects of our service is the provision of essential yoga accessories. We understand that many participants may not have their own yoga mats, props, or wellness kits. That's why we offer these items to participants, ensuring that they have everything they need for a comfortable and fulfilling retreat experience. From high-quality mats to props like blocks and straps, we've got it all covered.\n\nIn addition to providing physical support, our team offers guidance and wellness tips throughout the retreat. Whether participants have questions about their practice, dietary preferences, or need assistance with any aspect of the retreat, we're here to help. Our goal is to create a sense of community and belonging, where participants feel cared for and valued.\n\nBy choosing our Participant Support service, you can enhance the overall experience of your retreat. Participants will appreciate the attention to detail and the extra care you provide, making your event stand out. Whether you're organizing a yoga retreat, a wellness workshop, or a spiritual retreat, our Participant Support service will ensure that every participant leaves with lasting memories and a sense of well-being.",
       "details": {
-        "Description": "Book the retreat for your group and enjoy a tailored experience.",
-        "Schedule": "Tailored schedule, private group activities",
-        "Instructors": "Special discounts, group activities for groups of 5 or more participants",
-        "Duration": "Custom pricing (for groups of 5 or more)",
-        "Benefits": "Benefits: Enjoy a customized retreat experience with your group, take advantage of special discounts, and partake in group activities tailored to your needs and interests."
+        "service": "Our participant support service ensures that your participants receive personalized assistance, guidance, and wellness tips throughout their retreat journey.",
+        "benefits": "Create a nurturing and supportive environment for your participants with the provision of essential yoga accessories, such as mats, props, and wellness kits."
       }
-      
     }
   ]
+  

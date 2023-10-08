@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
 import { InfoContext } from '../../../Pages/Home/Home';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../../AuthProvider/AuthProvider';
+import toast from 'react-hot-toast';
 
 const ServiceCard = ({service}) => {
 
-    const {handleDetails} = useContext(InfoContext);
+    const {user} = useContext(AuthContext);
     const navigate = useNavigate();
 
 
@@ -19,10 +21,10 @@ const ServiceCard = ({service}) => {
 
     return (
         <div>
-           <div className="relative flex flex-col w-full  mx-auto  bg-clip-border rounded-md text-gray-700 drop-shadow-lg hover:-translate-y-4 duration-300 ease-in-out hover:shadow-2xl">
+           <div className="relative flex h-full  flex-col w-full  mx-auto  bg-clip-border rounded-md text-gray-700 drop-shadow-lg hover:-translate-y-4 duration-300 ease-in-out hover:shadow-2xl justify-between">
   <div className="relative overflow-hidden rounded-t-md bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 w-full h-full">
     <img
-      src={image}
+      src={image }
       alt="ui/ux review check"
       className='w-full h-[270px]'
     />
@@ -45,23 +47,25 @@ const ServiceCard = ({service}) => {
       </span>
     </button>
   </div>
-  <div className="p-6 flex flex-col items-left  justify-center">
-    <div className="mb-3 flex flex-col gap-2 text-left items-center justify-between">
-      <h5 className="block text-2xl  font-sans  font-semibold leading-snug tracking-normal text-pink-600 antialiased">
+  <div className="p-4 flex flex-col flex-grow items-left justify-between">
+    <div className="mb-3 flex-grow flex flex-col justify-between gap-2  ">
+      <h5 className="block  text-2xl flex-grow text-left font-sans shadow-inner font-extrabold leading-snug tracking-normal text-white antialiased truncate-overflow">
         {name}
       </h5>
 
-      <p className="flex justify-center items-center gap-1.5 font-sans text-base font-normal leading-relaxed flex-grow text-blue-gray-900 antialiased">
+      <p className="  gap-1.5 text-left font-sans text-base font-normal leading-relaxed flex-grow text-blue-gray-900 antialiased">
       
         {price}
       </p>
     </div>
     <p className="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased text-left flex-grow">
-      {description}
+      {description?.slice(0, 60)}...
     </p>
   
   <div className=" pt-3">
-    <button onClick={() => navigate(`/details/${id}`)}
+    <button onClick={() => {
+      navigate(`/details/${id}`);
+}}
       className="block w-full select-none rounded-lg bg-[#25AB75] py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
       data-ripple-light="true"

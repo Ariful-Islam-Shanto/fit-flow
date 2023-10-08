@@ -1,7 +1,24 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../AuthProvider/AuthProvider';
+import {FaCircleUser} from 'react-icons/fa6';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const {user, logOut} = useContext(AuthContext);
+
+  const handleLogOut = () => {
+      logOut()
+      .then(res => {
+          console.log(res.user)
+      })
+      .catch(err => console.error(err.message));
+
+      navigate('/register');
+  }
+
     return (
         <>
            <div className="navbar bg-transparent h-[10vh]">
@@ -28,21 +45,29 @@ const Navbar = () => {
     <ul className="menu menu-horizontal flex gap-12 px-1">
       <NavLink to={'/'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : "text-white"
+        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
       }>Home</NavLink>
       <NavLink to={'/register'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : "text-white"
+        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
       }>Register</NavLink>
       <NavLink to={'/login'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : "text-white"
+        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
       }>Login</NavLink>
 
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="bg-[#25AB75]   text-white rounded-md py-2 px-7">Sign in</a>
+   
+    {
+      user ? <> 
+      <img src={user.photoURL ? user.photoURL : <FaCircleUser></FaCircleUser>} alt="" className="w-10 h-10 rounded-full mr-4"/>
+      <span className='text-gray-200'>{user.displayName ? user.displayName : user.email}</span> 
+      <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75]   text-white rounded-md py-2 px-7">Sign out</Link>
+      </> :
+      <Link to={'/login'} className="bg-[#25AB75]   text-white rounded-md py-2 px-7">Sign in</Link>
+    }
   </div>
 </div> 
         </>

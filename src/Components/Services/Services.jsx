@@ -12,9 +12,9 @@ const Services = () => {
 
     console.log(services);
     return (
-        <div className='w-full bg-black'>
+        <div className='w-full bg-black px-36'>
         <div className=' w-full py-16 space-y-16 max-w-6xl mx-auto' >
-            <h1 className='text-6xl  text-center text-black font-medium'>Our Holistic Wellness Services</h1>
+            <h1 className='text-4xl  text-left text-white font-medium'>Event Management Excellence</h1>
             <div className='grid grid-cols-3 gap-8'>
                 {
                     services.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
