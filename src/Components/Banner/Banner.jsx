@@ -13,7 +13,7 @@ const Banner = () => {
                 <button className='bg-gray-800 px-7 py-3 rounded-md hover:from-blue-200 hover:to-teal-50 hover:text-gray-600 text-sm   text-white'>Get Started</button>
                 </div>
             </div>
-            <img src={banner} alt="" className='md:w-2/5 lg:w-2/5 h-[400px] md:h-full lg:h-3/3 xl:w-1/3 xl:h-full static  md:absolute lg:absolute xl:absolute  lg:bottom-[10%] xl:bottom-[5%]  right-0'/>
+            <img src={banner} alt="" className='md:w-2/5 lg:w-2/5 h-[400px] md:h-full lg:h-3/3 xl:w-1/3 xl:h-full static  md:absolute lg:absolute xl:absolute  lg:bottom-[5%] xl:bottom-[5%]  right-0'/>
            
             {/* <div className='bg-gradient-to-tr -mr-4 relative shadow-2xl border-white border-2 rounded-full from-[#deecf9] to-[#b6cce3] h-[400px] w-[400px] mx-auto my-auto flex items-center justify-center'>
                 <img src={banner} alt="" className='w-full'/>

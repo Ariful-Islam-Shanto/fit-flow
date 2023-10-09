@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, NavLink, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import {FaCircleUser} from 'react-icons/fa6';
+import User from '../../assets/images/user1.jpg';
 
 const Navbar = () => {
 
@@ -42,7 +43,7 @@ const Navbar = () => {
     <a className={`${location.pathname === '/' ? "text-white" : "text-black"} tracking-wider normal-case text-2l font-bold`}> <span className='text-[#25AB75] text-4xl'>F</span>itFlow</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal flex gap-12 px-1">
+    <ul className="menu menu-horizontal flex gap-6 px-1">
       <NavLink to={'/'}
         className={({ isActive, isPending }) =>
         isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'} `
@@ -75,11 +76,11 @@ const Navbar = () => {
    
     {
       user ? <> 
-      <img src={user.photoURL ? user.photoURL : <FaCircleUser></FaCircleUser>} alt="" className="w-10 h-10 rounded-full mr-4"/>
+      <img src={user.photoURL ? user.photoURL : User } alt="" className="w-10 h-10 rounded-full mr-4"/>
       <span className={`${location.pathname === '/' ? 'text-gray-200 '
       : 'text-black'
-      } font-bold mr-4 `}>{user.displayName ? user.displayName : user.email}</span> 
-      <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75]   text-white rounded-md py-2 px-5">Sign out</Link>
+      } font-bold mr-2 `}>{user.displayName ? user.displayName : user.email}</span> 
+      <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75] text-sm  text-white rounded-md py-2 px-4">Signout</Link>
       </> :
       <Link to={'/login'} className="bg-[#25AB75]   text-white rounded-md py-2 px-5">Sign in</Link>
     }

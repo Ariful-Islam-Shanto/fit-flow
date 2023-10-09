@@ -4,9 +4,9 @@ import Navbar from "../../Components/Navbar/Navbar";
 
 const FindEvent = () => {
   return (
-    <div className="px-36 py-6 space-y-6">
+    <div className="px-6 md:px-12 lg:px-24 xl:px-36 py-6 space-y-6">
         <Navbar></Navbar>
-      <h1 className="text-6xl text-black text-left font-medium">
+      <h1 className="text-3xl md:text-4xl lg:text-6xl xl:text-6xl text-black text-left font-medium">
         Find the best event for you.
       </h1>
       <p>Upcoming event for you</p>

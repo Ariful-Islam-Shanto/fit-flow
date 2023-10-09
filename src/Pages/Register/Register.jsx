@@ -57,17 +57,17 @@ const Register = () => {
 
 
   return (
-    <div className="w-full bg-blue-50 py-6 px-36">
+    <div className="w-full bg-blue-50 py-6 px-6 md:px-12 lg:px-24 xl:px-36">
     <Navbar></Navbar>
 
     <div className="flex items-center w-full  justify-center py-12">
-      <div className="relative px-10 bg-white shadow-md mx-auto flex flex-col rounded-xl bg-transparent bg-clip-border w-2/4 text-gray-700 ">
+      <div className="relative px-10 bg-white shadow-md mx-auto flex flex-col rounded-xl bg-transparent bg-clip-border md:3/4 lg:h-3/4 xl:w-2/4 text-gray-700 ">
         <h4 className="block font-sans mt-6 text-4xl font-bold leading-snug tracking-normal  text-center text-blue-gray-900 antialiased">
           Register your account
         </h4>
         
         <form onSubmit={handleSubmit} className="mt-8 mb-2 w-full p-4">
-          <div className="mb-4 flex flex-col gap-6">
+          <div className="mb-4 flex flex-col gap-6 w-full">
             <div className="relative h-11 w-full min-w-[200px]">
               <input type="text" name="name"
                 className="peer h-full w-full rounded-md border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-blue-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"

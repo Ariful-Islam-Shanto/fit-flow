@@ -7,7 +7,6 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import PrivateRoute from "../Private Routes/Private Route/PrivateRoute";
 import Details from "../Private Routes/Details/Details";
-import Dashboard from "../Private Routes/Dashboard/Dashboard";
 import CreateEvent from "../Private Routes/Event/CreateEvent";
 import FindEvent from "../Private Routes/Event/FindEvent";
 

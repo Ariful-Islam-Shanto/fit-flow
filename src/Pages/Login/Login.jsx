@@ -21,6 +21,7 @@ const Login = () => {
         userLogIn(email, password) 
         .then(res => {
             toast.success('Successfully Logged in.')
+            navigate('/');
             // Navigate(location?.state ? location.state : '/');
         })
         .catch(err => toast.error(err.message));
@@ -81,9 +82,7 @@ const Login = () => {
       </div>
       <p onClick={handleForgetPassword} className="text-gray-400 p-6 ">Forget password?</p>
       <div className="p-6 pt-0">
-        <button onClick={() => {
-            navigate('/');
-        }}
+        <button 
           className="block w-full select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="submit"
           data-ripple-light="true"
