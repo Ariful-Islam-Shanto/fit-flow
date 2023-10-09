@@ -49,10 +49,10 @@ const Login = () => {
         })
     }
   return (
-    < div className='bg-blue-50 py-6 px-36'>
+    < div className='bg-blue-50 py-6 px-6 md:px-12 lg:px-24 xl:px-36'>
     <Navbar></Navbar>
     <div className="flex items-center justify-center py-24">
-    <div className="relative flex w-2/5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+    <div className="relative flex w-full md:w-4/5 lg:w-3/5 xl:w-2/5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
    
       <h1 className="text-4xl text-center text-gray-800 font-bold py-6">Login your account</h1>
       <form onSubmit={handleLogIn}>
