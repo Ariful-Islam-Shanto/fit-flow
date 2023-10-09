@@ -9,11 +9,13 @@ import PrivateRoute from "../Private Routes/Private Route/PrivateRoute";
 import Details from "../Private Routes/Details/Details";
 import CreateEvent from "../Private Routes/Event/CreateEvent";
 import FindEvent from "../Private Routes/Event/FindEvent";
+import ErrorPage from "../Components/Error Page/ErrorPage";
 
 const Route = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
             path: '/',
