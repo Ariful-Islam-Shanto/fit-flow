@@ -1,0 +1,5 @@
+.eventBg {
+    background-image: url("../../assets/images/geert-pieters-3RnkZpDqsEI-unsplash.jpg"), linear-gradient(45deg,rgba(82, 82, 87, 0.881),rgba(63, 66, 68, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+}

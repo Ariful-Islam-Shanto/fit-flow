@@ -3,11 +3,12 @@ import React, { useContext, useRef } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import toast from 'react-hot-toast';
 import auth from '../../firebase/firebase.config';
-import { Link, Navigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Navbar from '../../Components/Navbar/Navbar';
 
 const Login = () => {
     const {userLogIn} = useContext(AuthContext);
+    const navigate = useNavigate();
     const emailRef = useRef();
     const handleLogIn = e => {
         e.preventDefault();
@@ -48,12 +49,12 @@ const Login = () => {
         })
     }
   return (
-    <>
+    < div className='bg-blue-50 py-6 px-36'>
     <Navbar></Navbar>
     <div className="flex items-center justify-center py-24">
     <div className="relative flex w-2/5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
    
-      <h1 className="text-4xl text-center text-gray-800 font-bold">Login your account</h1>
+      <h1 className="text-4xl text-center text-gray-800 font-bold py-6">Login your account</h1>
       <form onSubmit={handleLogIn}>
       <div className="flex flex-col gap-4 p-6">
         <div className="relative h-11 w-full min-w-[200px]">
@@ -80,7 +81,9 @@ const Login = () => {
       </div>
       <p onClick={handleForgetPassword} className="text-gray-400 p-6 ">Forget password?</p>
       <div className="p-6 pt-0">
-        <button
+        <button onClick={() => {
+            navigate('/');
+        }}
           className="block w-full select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="submit"
           data-ripple-light="true"
@@ -100,7 +103,7 @@ const Login = () => {
       </form>
     </div>
   </div>
-  </>
+  </div>
   );
 };
 

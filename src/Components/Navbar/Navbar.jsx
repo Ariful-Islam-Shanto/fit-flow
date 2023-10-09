@@ -39,22 +39,35 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className=" normal-case text-white text-xl font-bold">FitFlow</a>
+    <a className={`${location.pathname === '/' ? "text-white" : "text-black"} tracking-wider normal-case text-2l font-bold`}> <span className='text-[#25AB75] text-4xl'>F</span>itFlow</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal flex gap-12 px-1">
       <NavLink to={'/'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'} `
       }>Home</NavLink>
       <NavLink to={'/register'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
+        isPending ? "text-white " : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
       }>Register</NavLink>
       <NavLink to={'/login'}
         className={({ isActive, isPending }) =>
-        isPending ? "text-white" : isActive ? "text-[#97c569]" : `${location.pathname === '/' || location.pathname === '/register' ? "text-white" : 'text-black'}`
+        isPending ? "text-white text-xs" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
       }>Login</NavLink>
+      {
+        user && 
+        <>
+      <NavLink to={'/createEvent'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Create Event</NavLink>
+      <NavLink to={'/findEvent'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs " : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Find Event</NavLink>
+      </>
+      }
 
     </ul>
   </div>
@@ -63,10 +76,12 @@ const Navbar = () => {
     {
       user ? <> 
       <img src={user.photoURL ? user.photoURL : <FaCircleUser></FaCircleUser>} alt="" className="w-10 h-10 rounded-full mr-4"/>
-      <span className='text-gray-200'>{user.displayName ? user.displayName : user.email}</span> 
-      <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75]   text-white rounded-md py-2 px-7">Sign out</Link>
+      <span className={`${location.pathname === '/' ? 'text-gray-200 '
+      : 'text-black'
+      } font-bold mr-4 `}>{user.displayName ? user.displayName : user.email}</span> 
+      <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75]   text-white rounded-md py-2 px-5">Sign out</Link>
       </> :
-      <Link to={'/login'} className="bg-[#25AB75]   text-white rounded-md py-2 px-7">Sign in</Link>
+      <Link to={'/login'} className="bg-[#25AB75]   text-white rounded-md py-2 px-5">Sign in</Link>
     }
   </div>
 </div> 

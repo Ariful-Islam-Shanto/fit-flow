@@ -53,12 +53,12 @@ const ServiceCard = ({service}) => {
         {name}
       </h5>
 
-      <p className="  gap-1.5 text-left font-sans text-base font-normal leading-relaxed flex-grow text-blue-gray-900 antialiased">
+      <p className="  gap-1.5 text-left font-sans text-gray-200 font-normal leading-relaxed flex-grow text-blue-gray-900 antialiased">
       
         {price}
       </p>
     </div>
-    <p className="block font-sans text-base font-light leading-relaxed text-gray-700 antialiased text-left flex-grow">
+    <p className="block font-sans text-base font-light leading-relaxed text-gray-200 antialiased text-left flex-grow">
       {description?.slice(0, 60)}...
     </p>
   

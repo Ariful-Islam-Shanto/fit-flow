@@ -38,7 +38,7 @@ const Details = () => {
         <h1 className="text-7xl text-black font-bold">{name}</h1>
         <p  className="text-black text-xl font-medium">Price: {price}</p>
         
-        <p>{description}</p>
+        <p className="text-left">{description}</p>
         
         <button className="px-7 py-2 text-white bg-blue-600 rounded-md border-none">Learn More</button>
       
