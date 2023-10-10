@@ -9,7 +9,7 @@ const Banner = () => {
     const navigate = useNavigate();
     return (
         
-        <div className='flex items-center justify-center py-6 flex-col-reverse  md:flex-row lg:flex-row xl:flex-row  h-full  md:h-[50vh] lg:h-[60vh] xl:h-[80vh] relative' >
+        <div className='flex items-center justify-center py-6 flex-col-reverse w-full md:flex-row lg:flex-row xl:flex-row  h-full  md:h-[50vh] lg:h-[60vh] xl:h-[80vh] relative' >
             
             <div className='flex text-center md:text-left lg:text-left xl:text-xl flex-col items-center md:items-start lg:items-start xl:items-start leading-snug  space-y-6 justify-center'>
                 <h1 className=' text-5xl md:text-6xl lg:text-8xl xl:text-9xl uppercase tracking-widest text-white font-bold '>Unlock Your  <br /><span className='bg-gradient-to-r from-[#25AB75] to-[#25AB75] bg-clip-text text-transparent'>Best Self</span></h1>
