@@ -17,7 +17,6 @@ const Login = () => {
         const form = new FormData(e.target);
         const email = form.get('email')
         const password = form.get('password');
-        console.log(email, password);
       
         userLogIn(email, password) 
         .then(res => {
@@ -120,9 +119,7 @@ const Login = () => {
         <button onClick={handleGoogleLogin} className='bg-white px-5 py-2 flex gap-2 items-center justify-center drop-shadow-md rounded-xl'>
           <FaGoogle></FaGoogle> <span>Google</span>
         </button>
-        <button onClick={handleFaceBookLogin}  className='bg-white px-5 py-2 gap-2 flex items-center justify-center drop-shadow-md rounded-xl'>
-          <FaFacebook></FaFacebook> <span>Facebook</span>
-        </button>
+       
         </div>
         <p className="mt-6 flex justify-center font-sans text-sm font-light leading-normal text-inherit antialiased">
           Don't have an account?

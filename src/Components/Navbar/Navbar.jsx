@@ -94,13 +94,13 @@ const Navbar = () => {
   <div className="navbar-end">
    
     {
-      user ? <> 
-      <img src={user.photoURL ? user.photoURL : User } alt="" className="w-10 h-10 rounded-full mr-4"/>
+      user ? <div className='flex flex-col items-center justify-center md:flex-row lg:flex-row xl:flex-row'> 
+      <img src={user.photoURL ? user.photoURL : User } alt="" className="w-10 h-10 rounded-full ml-4 mr-0 md:mr-4 lg:mr-4 xl:mr-4"/>
       <span className={`${location.pathname === '/' ? 'text-gray-200 '
       : 'text-black'
       } font-bold mr-2 `}>{user.displayName ? user.displayName : user.email}</span> 
       <Link to={'/login'} onClick={handleLogOut} className="bg-[#25AB75] text-sm  text-white rounded-md py-2 px-4">Signout</Link>
-      </> :
+      </div> :
       <Link to={'/login'} className="bg-[#25AB75]   text-white rounded-md py-2 px-5">Sign in</Link>
     }
   </div>

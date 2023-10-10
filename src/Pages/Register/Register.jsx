@@ -19,7 +19,7 @@ const Register = () => {
     const email = form.get('email');
     const password = form.get('password');
 
-    if(!name || !email || !password) {
+    if(!name || !email || !password || photo) {
         return toast.error("Please fill the form correctly.")
     }
 
