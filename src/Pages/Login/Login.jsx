@@ -5,9 +5,10 @@ import toast from 'react-hot-toast';
 import auth from '../../firebase/firebase.config';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Navbar from '../../Components/Navbar/Navbar';
+import { FaFacebook, FaGoogle } from 'react-icons/fa6';
 
 const Login = () => {
-    const {userLogIn} = useContext(AuthContext);
+    const {userLogIn, googleLogin, facebookLogin} = useContext(AuthContext);
     const navigate = useNavigate();
     const emailRef = useRef();
     const handleLogIn = e => {
@@ -26,6 +27,26 @@ const Login = () => {
         })
         .catch(err => toast.error(err.message));
         
+    }
+
+    const handleGoogleLogin = () => {
+         googleLogin()
+         .then(() => {
+          toast.success('Successfully logged in.');
+         })
+         .catch((error) => {
+          toast.error(error.message);
+         })
+    }
+
+    const handleFaceBookLogin = () => {
+      facebookLogin()
+      .then(() => {
+        toast.success('Successfully logged in.');
+       })
+       .catch((error) => {
+        toast.error(error.message);
+       })
     }
 
     //? Handle user forget password
@@ -49,6 +70,9 @@ const Login = () => {
             toast.error(err.message);
         })
     }
+
+
+
   return (
     < div className='bg-blue-50 py-6 px-6 md:px-12 lg:px-24 xl:px-36'>
     <Navbar></Navbar>
@@ -89,6 +113,17 @@ const Login = () => {
         >
           Sign In
         </button>
+        <p className='text-center my-4'>
+          or Sign in with
+        </p>
+        <div className='flex items-center justify-center gap-4'>
+        <button onClick={handleGoogleLogin} className='bg-white px-5 py-2 flex gap-2 items-center justify-center drop-shadow-md rounded-xl'>
+          <FaGoogle></FaGoogle> <span>Google</span>
+        </button>
+        <button onClick={handleFaceBookLogin}  className='bg-white px-5 py-2 gap-2 flex items-center justify-center drop-shadow-md rounded-xl'>
+          <FaFacebook></FaFacebook> <span>Facebook</span>
+        </button>
+        </div>
         <p className="mt-6 flex justify-center font-sans text-sm font-light leading-normal text-inherit antialiased">
           Don't have an account?
           <Link to={'/register'}

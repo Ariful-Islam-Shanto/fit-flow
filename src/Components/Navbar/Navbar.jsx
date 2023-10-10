@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const navigate = useNavigate();
   const location = useLocation();
+  const path = location.pathname;
   const {user, logOut} = useContext(AuthContext);
 
   const handleLogOut = () => {
@@ -25,22 +26,40 @@ const Navbar = () => {
            <div className="navbar bg-transparent h-[10vh]">
   <div className="navbar-start">
     <div className="dropdown">
-      <label tabIndex={0} className="btn btn-ghost lg:hidden">
+      <label tabIndex={0} className={`btn ${path === '/' ? 'bg-white' : 'bg-gray-100'} mr-2 btn-ghost lg:hidden`}>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-10 shadow flex gap-10 bg-transparent backdrop-blur-xl rounded-box w-52">
+
+      <NavLink to={'/'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'} `
+      }>Home</NavLink>
+      <NavLink to={'/register'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white " : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Register</NavLink>
+      <NavLink to={'/login'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white text-xs" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Login</NavLink>
+      {
+        user && 
+        <>
+      <NavLink to={'/createEvent'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs" : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Create Event</NavLink>
+      <NavLink to={'/findEvent'}
+        className={({ isActive, isPending }) =>
+        isPending ? "text-white" : isActive ? "text-[#25AB75]  uppercase text-xs " : `${location.pathname === '/' || location.pathname === '/' ? "text-gray-200 uppercase text-xs" : 'text-black uppercase text-xs'}`
+      }>Find Event</NavLink>
+      </>
+      }
+
       </ul>
     </div>
-    <a className={`${location.pathname === '/' ? "text-white" : "text-black"} tracking-wider normal-case text-2l font-bold`}> <span className='text-[#25AB75] text-4xl'>F</span>itFlow</a>
+    <a className={`${location.pathname === '/' ? "text-white" : "text-black"} tracking-wider normal-case text-2xl font-bold`}> <span className='text-[#25AB75] text-4xl'>F</span>itFlow</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal flex gap-6 px-1">

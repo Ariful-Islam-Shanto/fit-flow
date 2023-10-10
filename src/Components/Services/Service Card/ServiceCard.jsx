@@ -1,10 +1,17 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { InfoContext } from '../../../Pages/Home/Home';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../AuthProvider/AuthProvider';
 import toast from 'react-hot-toast';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const ServiceCard = ({service}) => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
     const {user} = useContext(AuthContext);
     const navigate = useNavigate();
@@ -20,7 +27,7 @@ const ServiceCard = ({service}) => {
         details} = service;
 
     return (
-        <div>
+        <div data-aos="fade-left" data-aos-duration="800">
            <div className="relative flex h-full  flex-col w-full  mx-auto  bg-clip-border rounded-md text-gray-700 drop-shadow-lg hover:-translate-y-4 duration-300 ease-in-out hover:shadow-2xl justify-between">
   <div className="relative overflow-hidden rounded-t-md bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 w-full h-full">
     <img
