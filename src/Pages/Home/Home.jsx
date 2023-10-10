@@ -27,7 +27,7 @@ const Home = () => {
     
   return (
     <div className="w-full h-full overflow-hidden" >
-      <div  className=" py-6 md:px-12 lg:px-24 xl:px-36  bg-[#04040a] backdrop-blur-xl from-black to-[#0b0b0b] w-full h-[90vh] md:h-[70vh] lg:h-[80vh] xl:h-[100vh]" >
+      <div  className=" py-6 md:px-12 lg:px-24 xl:px-36  bg-[#04040a] backdrop-blur-xl from-black to-[#0b0b0b] w-full h-[100vh] md:h-[70vh] lg:h-[80vh] xl:h-[100vh]" >
 
         <Navbar></Navbar>
         <Banner ></Banner>
